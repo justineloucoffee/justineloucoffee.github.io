@@ -789,6 +789,7 @@ margin-right: auto;
     
     .exhibition-container{
         margin: auto;
+	width: 95%;
     }
 
     .exhibition-contents{
