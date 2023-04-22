@@ -90,6 +90,8 @@ ul {
     text-align: center;
     scroll-behavior: smooth;
     border-radius: 20%;
+    display: flex;
+    padding-left: 5px;
 }
 
 
@@ -444,8 +446,9 @@ ul {
             .close-photo-overlay {
                 font-size: 30px;
                 position: fixed;
-                right: 50px;
-                top: 50px;
+                top: 0;
+                right: 0;
+                margin: 3%;
                 color: white;
                 z-index: 2;
                 text-align: center;
@@ -456,7 +459,6 @@ ul {
                 background-color: #87CEBD;
                 border-radius: 20%;
                 display: flex;
-                margin: auto;
                 }
 
           img {
