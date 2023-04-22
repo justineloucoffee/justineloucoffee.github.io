@@ -139,7 +139,7 @@ if (isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["subject"]) 
 
   $entete  = 'MIME-Version: 1.0' . "\r\n";
   $entete .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-  $entete .= 'From: webmaster@monsite.fr' . "\r\n";
+  $entete .= 'From: justineloucoffee@gmail.com' . "\r\n";
   $entete .= 'Reply-to: ' . $_POST['email'];
 
   $message = '<h1>Sent from Loucoffee Contact Page</h1>
@@ -148,7 +148,7 @@ if (isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["subject"]) 
   <p><b>Subject : </b>' . $_POST['subject'] . '<br>
   <b>Message : </b>' . htmlspecialchars($_POST['message']) . '</p>';
 
-  $reply = mail('justine-lepage@hotmail.com', 'Sent from Loucoffee Contact Page', $_POST['message'], 'From: webmaster@monsite.fr' . "\r\n" . 'Reply-to: ' . $_POST['email']);
+  $reply = mail('justineloucoffee@gmail.com', 'Sent from Loucoffee Contact Page', $_POST['message'], 'From: justineloucoffee@gmail.com' . "\r\n" . 'Reply-to: ' . $_POST['email']);
   if($reply)
 
 print "<div class=\"contact\">
