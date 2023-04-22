@@ -435,12 +435,10 @@ ul {
            position: fixed;
             top: 0;
             margin: auto;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-size:contain;
+            background-position: center;
+            background-size: contain;
             background-repeat: no-repeat;
-            background-color: #020202c5;
+            background-color: #020202d8;
             }
 
             .close-photo-overlay {
