@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	   <title>Loucoffee - Contact me</title>
+	<link rel="stylesheet" type="text/css" href="script/style.css">
+  <link rel="icon" type="image/png" href="images/Self_Portrait.png">
+
+  <!-- import d'un kit fontawesome pour les icônes réseaux sociaux -->
+      <script src="https://kit.fontawesome.com/279d5d08dd.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+<!-- MENU -->
+  <div class="header">
+ <h1> <a href="index.html"><img class="logo" src="images/LogoLoucoffee2.png" width="250"></a></h1>
+
+ <label for="toggle">☰</label>
+ <input type="checkbox" id="toggle">
+    <nav class="regular">
+  <ul>
+    <li><a href="about.html">about me</a></li>
+    <li><a href="artwork.html">my artwork</a></li>
+    <li><a href="projects.html">my other hats</a></li>
+    <li><a href="contact.html"><b>contact me</b></a></li>
+  </ul>
+</nav>
+</div>
+
+<br><br>
+<!-- FORMULAIRE -->
+
+<div class="title-exhib"><h2>want to reach out?</h2></div>
+<h3>Please use the form below!</h3>
+<br><br>
+
+<form class="contact" id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/moqzynnd" method="post">
+        <input type="text" name="name" placeholder="My name is..." required=""><br><br>
+        <input type="text"  name="_replyto"  placeholder="My email is..." required=""><br><br>
+      <textarea rows="5" name="message" id="message" placeholder="Hello Loucoffee!" required=""></textarea>
+      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+      <br><br><input type="submit" value="Submit">
+  </form>
+
+</body>
+
+</html>
