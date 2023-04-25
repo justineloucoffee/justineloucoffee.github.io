@@ -62,6 +62,9 @@ p {
     margin-bottom: 20pt;
 }
 
+a {
+    color: #020202;
+}
 
 ul {
     text-align: left;
